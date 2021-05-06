@@ -3,7 +3,6 @@ class Swiper {
     if (!node) throw new Error("需要传递需要绑定的DOM元素");
     let root = typeof node === "string" ? document.querySelector(node) : node;
     let eventHub = { swipLeft: [], swipRight: [] };
-
     let initX;
     let newX;
     let clock;

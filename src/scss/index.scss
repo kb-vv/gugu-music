@@ -53,6 +53,7 @@ $color3: #0025f1;
     width: 200vw;
     display: flex;
     transition: transform 0.3s;
+    position: relative;
     &.panel1 {
       transform: translateX(-0vw);
     }
@@ -112,13 +113,13 @@ $color3: #0025f1;
       height: 100%;
       width: 100vw;
       text-align: center;
-      line-height: 2;
+
       overflow: hidden;
       .container {
         transition: all 0.3s;
-        transform: translateY(-100px);
         p {
           font-size: 14px;
+          line-height: 2;
           color: $color1;
           &.current {
             color: $color;
@@ -162,7 +163,7 @@ $color3: #0025f1;
         border-radius: 2px;
         margin: 0 10px;
         .progress {
-          width: 30%;
+          width: 0%;
           transition: all 0.2s;
           height: 100%;
           border-radius: 2px;
