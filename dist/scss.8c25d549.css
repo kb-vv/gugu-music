@@ -20,6 +20,7 @@
 #player .header p {
   color: #868aaf;
   font-size: 12px;
+  padding-top: 10px;
 }
 #player .header .bails {
   display: flex;
@@ -67,7 +68,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40vh;
+  height: 50vh;
 }
 #player .panels .panel-effect .effect > div {
   background-size: contain;
@@ -93,6 +94,9 @@
 }
 #player .panels .panel-effect .lyric {
   text-align: center;
+  height: calc(100vh - 270px - 50vh);
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 #player .panels .panel-effect p {
   font-size: 13px;

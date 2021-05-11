@@ -25,6 +25,7 @@ $color3: #0025f1;
     p {
       color: $color1;
       font-size: 12px;
+      padding-top: 10px;
     }
     .bails {
       display: flex;
@@ -72,7 +73,7 @@ $color3: #0025f1;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 40vh;
+        height: 50vh;
         > div {
           background-size: contain;
           position: absolute;
@@ -98,12 +99,14 @@ $color3: #0025f1;
       }
       .lyric {
         text-align: center;
+        height: calc(100vh - 270px - 50vh);
+        margin-top: 20px;
+        margin-bottom: 40px;
       }
       p {
         font-size: 13px;
         color: $color1;
         margin-top: 8px;
-
         &.current {
           color: $color;
         }
