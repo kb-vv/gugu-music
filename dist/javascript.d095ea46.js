@@ -461,4 +461,4 @@ document.body.addEventListener("touchmove", function (e) {
 });
 window.p = new Player("#player");
 },{"./icon.js":"UqhM","./swiper.js":"OCOi"}]},{},["EWR2"], null)
-//# sourceMappingURL=d:/Qianduan/cmder/vendor/git-for-windows/gugu-music/dist/javascript.d095ea46.js.map
+//# sourceMappingURL=javascript.d095ea46.js.map
